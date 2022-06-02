@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane styleClass="root" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <center>
+      <AnchorPane fx:id="backgroundImage" prefHeight="800.0" prefWidth="1200.0" styleClass="root" stylesheets="@application.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="background" fitHeight="800.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="btn1" layoutY="120.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="1" />
+            <Button fx:id="btn2" layoutY="242.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="2" />
+            <Button fx:id="btn3" layoutX="7.0" layoutY="342.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="3" />
+            <Button fx:id="btn4" layoutX="7.0" layoutY="459.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="4" />
+            <Button fx:id="btn5" layoutX="7.0" layoutY="586.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="5" />
+            <Button fx:id="btn6" layoutX="7.0" layoutY="756.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="6" />
+            <Button fx:id="btn7" layoutX="99.0" layoutY="114.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="7" />
+            <Button fx:id="btn8" layoutX="99.0" layoutY="235.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="8" />
+            <Button fx:id="btn9" layoutX="48.0" layoutY="169.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="9" />
+            <Button fx:id="btn10" layoutX="55.0" layoutY="235.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="10" />
+            <Button fx:id="btn11" layoutX="55.0" layoutY="342.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="11" />
+            <Button fx:id="btn12" layoutX="115.0" layoutY="335.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="12" />
+            <Button fx:id="btn14" layoutX="123.0" layoutY="452.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="14" />
+            <Button fx:id="btn13" layoutX="123.0" layoutY="400.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="13" />
+            <Button fx:id="btn15" layoutX="139.0" layoutY="580.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="15" />
+            <Button fx:id="btn16" layoutX="147.0" layoutY="748.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="16" />
+            <Button fx:id="btn17" layoutX="71.0" layoutY="672.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="17" />
+            <Button fx:id="btn18" layoutX="229.0" layoutY="99.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="18" />
+            <Button fx:id="btn19" layoutX="229.0" layoutY="227.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="19" />
+            <Button fx:id="btn20" layoutX="229.0" layoutY="335.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="20" />
+            <Button fx:id="btn21" layoutX="229.0" layoutY="452.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="21" />
+            <Button fx:id="btn22" layoutX="229.0" layoutY="580.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="22" />
+            <Button fx:id="btn23" layoutX="229.0" layoutY="748.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="23" />
+            <Button fx:id="btn24" layoutX="317.0" layoutY="90.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="24" />
+            <Button fx:id="btn25" layoutX="317.0" layoutY="220.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="25" />
+            <Button fx:id="btn26" layoutX="317.0" layoutY="320.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="26" />
+            <Button fx:id="btn27" layoutX="317.0" layoutY="452.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="27" />
+            <Button fx:id="btn28" layoutX="317.0" layoutY="580.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="28" />
+            <Button fx:id="btn29" layoutX="317.0" layoutY="748.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="29" />
+            <Button fx:id="btn30" layoutX="430.0" layoutY="84.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="30" />
+            <Button fx:id="btn31" layoutX="423.0" layoutY="212.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="31" />
+            <Button fx:id="btn32" layoutX="423.0" layoutY="320.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="32" />
+            <Button fx:id="btn33" layoutX="414.0" layoutY="452.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="33" />
+            <Button fx:id="btn34" layoutX="414.0" layoutY="580.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="34" />
+            <Button fx:id="btn35" layoutX="407.0" layoutY="748.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="35" />
+            <Button fx:id="btn36" layoutX="505.0" layoutY="84.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="36" />
+            <Button fx:id="btn37" layoutX="499.0" layoutY="320.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="37" />
+            <Button fx:id="btn38" layoutX="489.0" layoutY="452.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="38" />
+            <Button fx:id="btn39" layoutX="489.0" layoutY="580.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="39" />
+            <Button fx:id="btn40" layoutX="483.0" layoutY="748.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="40" />
+            <Button fx:id="btn41" layoutX="568.0" layoutY="84.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="41" />
+            <Button fx:id="btn42" layoutX="568.0" layoutY="320.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="42" />
+            <Button fx:id="btn43" layoutX="568.0" layoutY="430.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="43" />
+            <Button fx:id="btn44" layoutX="568.0" layoutY="580.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="44" />
+            <Button fx:id="btn45" layoutX="568.0" layoutY="748.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="45" />
+            <Button fx:id="btn46" layoutX="640.0" layoutY="75.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="46" />
+            <Button fx:id="btn47" layoutX="640.0" layoutY="378.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="47" />
+            <Button fx:id="btn48" layoutX="640.0" layoutY="474.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="48" />
+            <Button fx:id="btn49" layoutX="640.0" layoutY="580.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="49" />
+            <Button fx:id="btn50" layoutX="640.0" layoutY="748.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #ff8585;" text="50" />
+            <Button fx:id="btn0" layoutX="759.0" layoutY="363.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-radius: 999; -fx-background-color: #38d0ff;" text="0" />
+            <Pane fx:id="pane" layoutX="808.0" layoutY="20.0" prefHeight="761.0" prefWidth="378.0" style="-fx-background-color: #e2f4ff;">
+               <children>
+                  <Label layoutX="51.0" layoutY="14.0" prefHeight="53.0" prefWidth="313.0" text="Pizza Delivery System" textAlignment="CENTER">
+                     <font>
+                        <Font name="Bauhaus 93" size="27.0" />
+                     </font>
+                  </Label>
+                  <TextArea fx:id="area" layoutX="17.0" layoutY="77.0" prefHeight="200.0" prefWidth="347.0" text="Da click al punto a &#10;dónde quiere ir para &#10;conocer el &#10;camino más corto ">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </TextArea>
+                  <Label layoutX="17.0" layoutY="304.0" prefHeight="35.0" prefWidth="218.0" text="BFS:">
+                     <font>
+                        <Font size="41.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="17.0" layoutY="471.0" prefHeight="35.0" prefWidth="218.0" text="DIJKSTRA:">
+                     <font>
+                        <Font size="41.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="bfsTextField" layoutX="1.0" layoutY="394.0" prefHeight="34.0" prefWidth="380.0" />
+                  <TextField fx:id="dijkstraTextField" layoutX="1.0" layoutY="565.0" prefHeight="34.0" prefWidth="380.0" />
+               </children>
+            </Pane>
+         </children></AnchorPane>
+   </center>
+</BorderPane>
